@@ -1,0 +1,44 @@
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+#gnb .top{
+    border-bottom: solid 1px #dddddd;
+}
+#gnb .top ul{
+    /* float: right; */
+    text-align: right
+}
+#gnb .top ul li{
+    display: inline-block;
+    padding:5px;
+    text-align: center;
+    border-left:solid 1px #ddd;
+}
+#gnb .top ul li:last-of-type{
+    border-right: solid 1px #ddd;
+}
+#gnb .bottom{
+    display: flex;
+    border-bottom:solid 3px navy;
+}
+#gnb .bottom div{
+    flex: 1;
+}
+#gnb .bottom .logo_area img{
+    width: 200px;
+}
+#gnb .bottom .menu_area ul{
+    display: flex;
+}
+
+#gnb .bottom .menu_area ul li{
+    flex: 1;
+    text-align: center;
+    padding:10px 0;
+}
