@@ -1,6 +1,7 @@
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, span {
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    font-size: 12px;    
 }
 ul {
     list-style: none;
@@ -129,4 +130,41 @@ a {
 }
 #bottom_link_banner ul li.pass .title{
     font-size: 20px;
+}
+#footer div:first-of-type{
+    position: relative;
+}
+#footer div ul.link_list li img {
+    width : 80px;
+}
+#footer div ul.link_list{
+    text-align: center;
+}
+#footer div ul.link_list li{
+    border: solid 1px #ccc;
+    text-align: center;
+    width: 140px;
+    display: inline-block;
+}
+#footer div span{
+    position: absolute;
+    top:7px;
+}
+#footer div span.left {
+    left:30px;
+}
+#footer div span.right {
+    right: 30px;
+}
+#footer .bottom{
+    display: flex;
+}
+#footer .bottom div{
+    flex: 1;
+}
+#footer .bottom div:nth-child(2){
+    text-align: right;
+}
+#footer .bottom img {
+    width:200px;
 }
